@@ -1,0 +1,41 @@
+
+[1] "#### IV: Median Income"
+[1] "#### DV: dropout_rate"
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: model_1
+   Data: vars
+
+REML criterion at convergence: 21632.2
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.5551 -0.3587 -0.0731  0.2215 12.9448 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ STUSPS   (Intercept) 780.8    27.94   
+ Residual             665.4    25.79   
+Number of obs: 2312, groups:  STUSPS, 13
+
+Fixed effects:
+                              Estimate Std. Error         df t value Pr(>|t|)   
+(Intercept)                  8.952e+01  4.977e+01  2.143e+03   1.799  0.07220 . 
+median_income               -1.427e-04  4.395e-05  2.292e+03  -3.246  0.00119 **
+bachelors_or_higher          1.076e+01  7.832e+00  2.288e+03   1.374  0.16949   
+white_percentage            -1.253e+01  1.331e+01  2.292e+03  -0.942  0.34628   
+black_percentage             4.567e+01  1.548e+01  2.297e+03   2.951  0.00320 **
+other_race_percentage       -1.802e+00  8.623e+00  2.292e+03  -0.209  0.83450   
+private_percentage          -5.678e+01  4.816e+01  2.289e+03  -1.179  0.23852   
+public_percentage           -2.213e+01  4.849e+01  2.288e+03  -0.456  0.64813   
+foreign_born_percentage     -1.261e+01  1.922e+01  2.292e+03  -0.656  0.51200   
+disability_under_18_percent  7.504e+01  7.349e+01  2.288e+03   1.021  0.30734   
+pop_15_19F                   4.237e-04  2.988e-04  2.289e+03   1.418  0.15634   
+pop_15_19M                  -3.623e-04  2.753e-04  2.289e+03  -1.316  0.18829   
+Year2023                    -4.564e-01  1.217e+00  2.292e+03  -0.375  0.70769   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation matrix not shown by default, as p = 13 > 12.
+Use print(summary(fit), correlation=TRUE)  or
+    vcov(summary(fit))        if you need it
+
