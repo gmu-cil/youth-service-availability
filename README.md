@@ -1,6 +1,6 @@
 ---
 title: Youth Service Availability and School Dropout
-scripts: Myeong Lee, Julia H.P. Hsu, Gie Myung Lee
+authors: Myeong Lee, Julia H.P. Hsu, Gie Myung Lee, Jinyi Kim, Gahyun Sohn
 date: October 2025
 ---
 
