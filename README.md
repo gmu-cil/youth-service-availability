@@ -1,12 +1,12 @@
 ---
 title: Youth Service Availability and School Dropout
-author: Myeong Lee, Julia H.P. Hsu, Gie Myung Lee
+scripts: Myeong Lee, Julia H.P. Hsu, Gie Myung Lee
 date: October 2025
 ---
 
 # Youth Service Availability and School Dropout
 
-* This repository contains data and analysis scripts for our paper publisehd in Research on Social Work Practice (Sage):
+This repository contains data and analysis scripts for our paper publisehd in Research on Social Work Practice (Sage):
 [Leveling Socoeconomic Disparities: The Role of Service Availability in School Dropout Rates](https://journals.sagepub.com/doi/full/10.1177/10497315251377009).
 
 ## Data Sources
